@@ -68,7 +68,7 @@ Metoden `ToString` i basklassen ska överskuggas (_overriden_) och ska alltid re
 
 ...
 
-### TryParseBirtdate(out DateTime result)
+#### TryParseBirtdate(out DateTime result)
 
 ...
 
