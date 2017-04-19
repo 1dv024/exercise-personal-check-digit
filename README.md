@@ -1,4 +1,4 @@
-#<i class="fa fa-laptop"></i> Personlig kontrollsiffra
+# <i class="fa fa-laptop"></i> Personlig kontrollsiffra
 
 <figure>
 <img src="img/luhnPatent.png" alt="Luhn Patent" />
@@ -72,7 +72,7 @@ Metoden `ToString` i basklassen ska överskuggas (_overriden_) och ska alltid re
 
 ...
 
-##<i class="fa fa-flag-checkered"></i> Mål
+## <i class="fa fa-flag-checkered"></i> Mål
 
 Efter att ha gjort uppgiften ska du:
 
@@ -83,13 +83,13 @@ Efter att ha gjort uppgiften ska du:
 - Kunna använda reguljära uttryck för att verifiera att en sträng uppfyller ställda krav.
 - Veta hur du kastar undantag.
 
-##<i class="fa fa-lightbulb-o"></i> Tips
+## <i class="fa fa-lightbulb-o"></i> Tips
 
 Läs om:
 
 - ...
 
-##<i class="fa fa-flask"></i> Lösningsförslag
+## <i class="fa fa-flask"></i> Lösningsförslag
 <ul class="fa-ul fa-border exercise-info">
 <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-personal-check-digit">https://github.com/1dv024/exercise-solution-proposals/tree/master/exercise-personal-check-digit</a></li>
 </ul>
