@@ -64,7 +64,7 @@ Egenskapen `Gender` är av den uppräkningsbara typen `Gender` och ska returnera
 
 #### IsValid
 
-Egenskapen `IsValid`, som är publik och överskuggar (_overrides_) metoden med samma namn i basklassen, ska returnera `true` om formatet, datumet och kontrollsiffrans är korrekta; i övriga fall ska `false` returneras.
+Egenskapen `IsValid`, som är publik och överskuggar (_override_) metoden med samma namn i basklassen, ska returnera `true` om formatet, datumet och kontrollsiffrans är korrekta; i övriga fall ska `false` returneras.
 
 ### Konstruktor
 Klassen `PersonalIdentityNumber` har en konstruktor med en parameter av typen `string`, med standardvärdet "", vars parameter du skickar vidare till basklassen. Basklassen behöver information om hur många siffror, räknade från höger, som ska användas då personnumret valideras (10 siffror används vid valideringen).
@@ -73,7 +73,7 @@ Klassen `PersonalIdentityNumber` har en konstruktor med en parameter av typen `s
 
 #### ToString()
 
-Metoden `ToString` i basklassen ska överskuggas (_overrides_) och ska alltid returnera en sträng med formatet `ÅÅÅÅMMDD-FFFK` oavsett vilket format som användes då personnumret matades in.
+Metoden `ToString` i basklassen ska överskuggas (_override_) och ska alltid returnera en sträng med formatet `ÅÅÅÅMMDD-FFFK` oavsett vilket format som användes då personnumret matades in.
 
 Är inte personnumret giltigt är det lämpligt att du låter metoden returnera det oformaterade numret, d.v.s. det värde egenskapen `Number` har.
 
