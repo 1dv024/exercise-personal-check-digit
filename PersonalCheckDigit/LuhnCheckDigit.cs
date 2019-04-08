@@ -163,7 +163,7 @@ namespace PersonalCheckDigit
         public LuhnCheckDigit Copy() => (LuhnCheckDigit) MemberwiseClone();
 
         /// <summary>
-        ///     Returns an array of integers containg the rightmost significant digits of this instance.
+        ///     Returns an array of integers containing the rightmost significant digits of this instance.
         /// </summary>
         /// <returns>An int array.</returns>
         protected virtual int[] ToIntArray()
