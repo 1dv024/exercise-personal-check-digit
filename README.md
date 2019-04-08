@@ -73,7 +73,7 @@ Klassen `PersonalIdentityNumber` har en konstruktor med en parameter av typen `s
 
 #### ToString()
 
-Metoden `ToString` i basklassen ska överskuggas (_overriden_) och ska alltid returnera en sträng med formatet `ÅÅÅÅMMDD-FFFK` oavsett vilket format som användes då personnumret matades in.
+Metoden `ToString` i basklassen ska överskuggas (_override_) och ska alltid returnera en sträng med formatet `ÅÅÅÅMMDD-FFFK` oavsett vilket format som användes då personnumret matades in.
 
 Är inte personnumret giltigt är det lämpligt att du låter metoden returnera det oformaterade numret, d.v.s. det värde egenskapen `Number` har.
 
